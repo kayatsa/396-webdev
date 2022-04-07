@@ -1,0 +1,81 @@
+/* HTML ELEMS */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(236, 236, 236);
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border-radius: 100%;
+}
+
+/* NAVBAR */
+
+#navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1em;
+	background-color: white;
+}
+
+#navbar-user {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	gap: 1em;
+}
+
+/* CONTENT */
+
+#content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 2vh 10vw;
+}
+
+/* RECOMMENDATIONS */
+
+#section-recs {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+}
+
+#user {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 2em;
+}
+
+#suggestions {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+#suggestions > h2 {
+	margin-bottom: 0.5em;
+}
+
+.rec {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1em;
+}
+
+.rec > div {
+	flex-grow: 2;
+}
